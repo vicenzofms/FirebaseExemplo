@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: cursive;
+}
+
+.createAccountDiv {
+	padding: 1rem;
+	h1 {
+		color: darkolivegreen;
+	}
+	button {
+		padding: 0.5rem;
+		background-color: darkolivegreen;
+		color: white;
+		border-radius: 0.5rem;
+		cursor: pointer;
+	}
+	button:hover {
+		background-color: green;
+	}
+
+	input {
+		padding: 0.25rem;
+		border-radius: 0.5rem;
+		border: 2px solid black;
+	}
+}
+
+.loginAccountDiv {
+	padding: 1rem;
+	h1 {
+		color: goldenrod;
+	}
+	button {
+		padding: 0.5rem;
+		background-color: goldenrod;
+		color: white;
+		border-radius: 0.5rem;
+		cursor: pointer;
+	}
+	button:hover {
+		background-color: chocolate;
+	}
+
+	input {
+		padding: 0.25rem;
+		border-radius: 0.5rem;
+		border: 2px solid black;
+	}
+}
+
+button#signoutBtn {
+	margin: 1rem;
+	padding: 0.5rem;
+	background-color: brown;
+	color: white;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+button#signoutBtn:hover {
+	background-color: crimson;
+}
+
+main {
+	margin: 1rem;
+
+	div.createPostDiv {
+		input {
+			padding: 0.25rem;
+			width: 75%;
+			border-radius: 0.5rem;
+			border: 2px solid black;
+		}
+		button {
+			padding: 0.5rem;
+			background-color: darkorchid;
+			color: white;
+			border-radius: 0.5rem;
+			cursor: pointer;
+		}
+		button:hover {
+			background-color: magenta;
+		}
+	}
+
+	ul#listaDePosts {
+		list-style: none;
+		width: 50%;
+		li.post {
+			-webkit-box-shadow: 10px 9px 47px -11px rgba(0, 0, 0, 0.75);
+			-moz-box-shadow: 10px 9px 47px -11px rgba(0, 0, 0, 0.75);
+			box-shadow: 10px 9px 47px -11px rgba(0, 0, 0, 0.75);
+			border: 1px solid gray;
+			border-radius: 0.5rem;
+			padding: 0.5rem;
+			margin-bottom: 1rem;
+			p.message {
+				font-size: 1.5rem;
+				color: dodgerblue;
+			}
+			p.author {
+				font-size: 1rem;
+				color: teal;
+				font-weight: bold;
+				margin-left: 1.5rem;
+			}
+			button.deletePostBtn {
+				padding: 0.5rem;
+				background-color: brown;
+				color: white;
+				border-radius: 0.5rem;
+				cursor: pointer;
+			}
+			button.deletePostBtn:hover {
+				background-color: crimson;
+			}
+		}
+	}
+}

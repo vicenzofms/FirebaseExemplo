@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Projeto</title>
+	</head>
+	<body>
+		<div id="createAccountDiv" class="createAccountDiv">
+			<h1>Criar conta!</h1>
+			<input type="text" id="emailInputCreate" placeholder="Email..." />
+			<input
+				type="password"
+				id="passwordInputCreate"
+				placeholder="Senha..." />
+			<input
+				type="text"
+				id="cpfInput"
+				placeholder="CPF pfv preciso te cadastra no bolsa fml..." />
+			<button id="createAccountBtn">CRIAR!</button>
+		</div>
+
+		<div id="loginAccountDiv" class="loginAccountDiv">
+			<h1>Faça login agora!</h1>
+			<input type="text" id="emailInputLogin" placeholder="Email..." />
+			<input
+				type="password"
+				id="passwordInputLogin"
+				placeholder="Senha..." />
+			<button id="loginAccountBtn">LOGAR!</button>
+		</div>
+
+		<button id="signoutBtn">DESLOGAR</button>
+
+		<main>
+			<div class="createPostDiv">
+				<h1>Digite algo interessante!</h1>
+				<input type="text" id="postInput" placeholder="Seu post..." />
+				<button id="postBtn">POSTAR!</button>
+			</div>
+			<h1>Posts</h1>
+			<ul id="listaDePosts">
+				<li class="post">
+					<p class="message">Mensagem</p>
+					<p class="author">email do usuário</p>
+				</li>
+				<li class="post">
+					<p class="message">Mensagem</p>
+					<p class="author">email do usuário</p>
+				</li>
+			</ul>
+		</main>
+
+		<script type="module" src="main.js"></script>
+	</body>
+</html>
