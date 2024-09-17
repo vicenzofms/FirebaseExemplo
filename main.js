@@ -16,14 +16,14 @@
 			} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js";
 
 			const firebaseConfig = {
-				apiKey: "AIzaSyCdstBHVKm9mfjgGGtUBL6aj1yD_3S928c",
-				authDomain: "aprendendodatabase.firebaseapp.com",
-				databaseURL: "https://aprendendodatabase.firebaseio.com",
-				projectId: "aprendendodatabase",
-				storageBucket: "aprendendodatabase.appspot.com",
-				messagingSenderId: "643614270319",
-				appId: "1:643614270319:web:a4d00d42f97f6560313e9a",
-				measurementId: "G-SQWYZ1BLYX",
+				apiKey: "API_KEY",
+				authDomain: "DOMAIN",
+				databaseURL: "DB_URL",
+				projectId: "PROJECT_ID",
+				storageBucket: "STORAGE_BUCKET",
+				messagingSenderId: "MSG_SENDER_ID",
+				appId: "APP_ID",
+				measurementId: "MEASUREMENT_ID",
 			};
 
 			// Initialize Firebase &  Constantes do Firebase
